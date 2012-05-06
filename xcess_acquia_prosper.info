@@ -1,0 +1,11 @@
+
+name = Xcess Acquia Prosper
+description = Acquia prosper sub-theme. Requires Acquia Prosper and <a href="http://drupal.org/project/fusion">Fusion Core</a> and the <a href="http://drupal.org/project/skinr">Skinr</a> module to enable easy point-and-click theming.
+base theme = acquia_prosper
+core = 6.x
+engine = phptemplate
+
+stylesheets[all][] = css/xcess-acquia-prosper-style.css
+
+; Inherit Skinr styles from parent themes
+skinr[options][inherit_skins] = true

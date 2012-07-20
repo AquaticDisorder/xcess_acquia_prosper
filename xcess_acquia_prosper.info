@@ -6,6 +6,7 @@ core = 6.x
 engine = phptemplate
 
 stylesheets[all][] = css/xcess-acquia-prosper-style.css
+stylesheets[all][] = skins/right.css
 
 ; Add custom js
 scripts[] = js/general.js
